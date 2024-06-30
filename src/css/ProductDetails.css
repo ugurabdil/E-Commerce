@@ -1,0 +1,50 @@
+
+
+.details-container{
+margin-top: 30px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.details-container-child-1{
+    margin-right: 40px;
+}
+
+.details-container-child-2 h1{
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.details-container-child-2 p{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 20px;
+}
+.details-container-child-2 h3{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 50px;
+    color: red;
+}
+.details-count-btn{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    
+
+}
+.details-count-btn span{
+    font-size: 40px;
+    margin: 10px 10px ;
+}
+
+.details-basket-btn button{
+    margin-top: 25px;
+    border: none;
+    background-color:rgb(219, 213, 206);
+    font-size: 25px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.details-basket-btn button:hover{
+    cursor: pointer;
+    background-color: rgb(185, 152, 124);
+    color: #fff;
+    transition: all 0.6s;
+}
